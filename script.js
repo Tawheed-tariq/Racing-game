@@ -105,8 +105,8 @@ const moveEnemy = (car) => {
 const moveLines = () => {
     let lines = document.querySelectorAll('.lines')
     lines.forEach((line) => {
-        if(line.y >= 700){
-            line.y -= 750
+        if(line.y >= 850){
+            line.y -= 900
 
         }
         line.y += player.speed
